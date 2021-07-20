@@ -1,0 +1,56 @@
+[
+    {
+        "quantity": 1,
+        "id": 1,
+        "valuta": "$",
+        "title": "Backpack",
+        "price": 250,
+        "img_src": "img_cat/1.jpg",
+        "description": "Known for her sculptural takes on&nbsp;traditional<br> tailoring, Australian arbiter of&nbsp;cool Kym Ellery teams<br>up&nbsp;with Moda Operandi."
+    },
+    {
+        "quantity": 1,
+        "id": 2,
+        "valuta": "$",
+        "title": "Jacket", 
+        "price": 350,
+        "img_src": "img_cat/2.jpg",
+        "description": "Known for her sculptural takes on&nbsp;traditional<br> tailoring, Australian arbiter of&nbsp;cool Kym Ellery teams<br>up&nbsp;with Moda Operandi." 
+    },
+    {
+        "quantity": 1,
+        "id": 3,
+        "valuta": "$", 
+        "title": "Hoodies", 
+        "price": 250,
+        "img_src": "img_cat/3.jpg",
+        "description": "Known for her sculptural takes on&nbsp;traditional<br> tailoring, Australian arbiter of&nbsp;cool Kym Ellery teams<br>up&nbsp;with Moda Operandi." 
+    },
+    { 
+        "quantity": 1,
+        "id": 4,
+        "valuta": "$",
+        "title": "Pants", 
+        "price": 200,
+        "img_src": "img_cat/4.jpg",
+        "description": "Known for her sculptural takes on&nbsp;traditional<br> tailoring, Australian arbiter of&nbsp;cool Kym Ellery teams<br>up&nbsp;with Moda Operandi." 
+    },
+    { 
+        "quantity": 1,
+        "id": 5,
+        "valuta": "$",
+        "title": "T-shirt", 
+        "price": 100,
+        "img_src": "img_cat/5.jpg",
+        "description": "Known for her sculptural takes on&nbsp;traditional<br> tailoring, Australian arbiter of&nbsp;cool Kym Ellery teams<br>up&nbsp;with Moda Operandi."
+    },
+    { 
+        "quantity": 1,
+        "id": 6,
+        "valuta": "$",
+        "title": "Cap", 
+        "price": 50,
+        "img_src": "img_cat/6.jpg",
+        "description": "Known for her sculptural takes on&nbsp;traditional<br> tailoring, Australian arbiter of&nbsp;cool Kym Ellery teams<br>up&nbsp;with Moda Operandi."
+    }
+]

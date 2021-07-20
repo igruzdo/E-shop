@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Корзина</title>
+</head>
+
+<body>
+    <div class="conteiner">
+        <nav class="navbar">
+            <div class="navbar_conteiner">
+                <div class="navbar_conteiner_left flex">
+                    <div class="icon-1">
+                        <a href="index.html"><img src="img/Lable.png" alt="lable"></a>
+                    </div>
+                    <div class="icon-2">
+                        <a href="#"><img src="img/serch.png" alt="serch"></a>
+                    </div>
+                </div>
+                <div class="navbar_conteiner_right flex">
+                    <div class="icon-3">
+                        <a href="#"><img src="img/menu.png" alt="menu"></a>
+                    </div>
+                    <div class="icon-4">
+                        <a href="#"><img src="img/my_site.png" alt="me"></a>
+                    </div>
+                    <div class="icon-5">
+                        <a href="#"><img src="img/cart.png" alt="cart"></a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="burger_menu hidden">
+            <img class = "burger_menu_close" src="img/Vector_X.jpg" alt="cancl">
+            <h3 style="margin-left: 34px; margin-bottom: 4px;">MENU</h3>
+            <ul class="burger_menu_lvl_1 list-style-type_off">
+                <li class="text--pink">MAN 
+                    <ul class="burger_menu_lvl_2 list-style-type_off ">
+                        <li>Accessories</li>
+                        <li>Bags</li>
+                        <li>Denim</li>
+                        <li>T-Shirts</li>
+                    </ul>
+                </li>
+                <li class="text--pink">WOMAN
+                    <ul class="burger_menu_lvl_2 list-style-type_off ">
+                        <li>Accessories</li>
+                        <li>Jackets & Coats</li>
+                        <li>Polos</li>
+                        <li>T-Shirts</li>
+                        <li>Shirts</li>
+                    </ul>
+                </li>
+                <li class="text--pink">KIDS
+                    <ul class="burger_menu_lvl_2 list-style-type_off ">
+                        <li>Accessories</li>
+                        <li>Jackets & Coats</li>
+                        <li>Polos</li>
+                        <li>T-Shirts</li>
+                        <li>Shirts</li>
+                        <li>Bags</li>
+                    </ul>
+                </li>
+            </ul>
+    			</div>
+				</div>
+        <div class="nw_ar_conteiner">
+            <nav class="nw_ar">
+                <span class="nw_ar_txt">SHOPPING CART</span>
+            </nav>
+        </div>
+       <div class="shop_cart_conteiner d-flex">
+           <div class="shop_cart_left">
+               <div class="shop_cart_render">
+                 </div>
+               <div class="shop_cart_buttons d-flex">
+                   <button class="clear_cart">CLEAR SHOPPING CART</button>
+                   <button class="continue_shop">CONTINUE SHOPPING</button>
+               </div>
+           </div>
+           
+           <div class="shop_cart_right">
+               <fieldset class="shop_cart_form">
+                   <p class="s_adress">SHIPPING ADRESS</p>
+                   <div class="inp_city"><input type="text" placeholder="Bangladesh"></div>
+                   <div class="inp_state"><input type="text" placeholder="State"></div>
+                   <div class="inp_poste"><input type="text" placeholder="Postcode / Zip"></div>
+                   <button class="get_a_q_button">GET A QUOTE</button>
+               </fieldset>
+               <div class="total_cost">
+                   <p class="sub_total">SUB TOTAL <span class="sm_price">$900</span></p>
+                   <p class="grand_total">GRAND TOTAL <span class="big_price text--pink">$900</span></p>
+                   <hr class="total_cost_hr">
+                   <button class="checkout_button">PROCEED TO CHECKOUT</button>
+               </div>
+           </div>
+       </div>
+       <div class="sub_conteiner">
+        <div class="subscribe">
+            <div class="lady flex">
+                <img src="img/circle_lady.png" alt="lady" class="lady_img">
+                <p class="lady_text">“Vestibulum quis porttitor dui! Quisque<br>viverra nunc mi, <i>a pulvinar purus<br>condimentum“</i></p>
+            </div>
+            <div class="subforme flex">
+                <p class="subforme_text_1">SUBSCRIBE</p>
+                <p class="subforme_text_2">FOR OUR NEWLETTER AND PROMOTION</p>
+                <div class="email_form flex"> <!--Добавил класс-->
+                    <input type="email" name="sub_emale" id="nope" placeholder="Enter Your Email" class="e-mail_inp"><button class="sub">Subscribe</button>             
+                </div>
+            </div>
+        </div>
+    </div>
+        <footer class="footer">
+            <div class="footer_content flex">
+                <div class="footer_text">
+                    <p>© 2021 Brand All Rights Reserved.</p>
+                </div>
+                <div class="social_box">
+                    <a href="#">
+                        <div class="s_box flex">
+                            <img src="img/facebook.png" alt="facebook" class="s_box_img">
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="s_box flex bak_pink">
+                            <img src="img/instagram.png" alt="inst" class="s_box_img">
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="s_box flex">
+                            <img src="img/p.png" alt="p" class="s_box_img">
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="s_box flex">
+                            <img src="img/twiter.png" alt="twiter" class="s_box_img">
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="Scripts/cart.js"></script>
+</body>
+</html>
